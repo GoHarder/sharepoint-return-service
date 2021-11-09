@@ -1,0 +1,15 @@
+{
+   "name": "sharepoint-return-service",
+   "version": "1.0.0",
+   "description": "Watches an output directory and copies files to a sharepoint folder",
+   "main": "return_service.js",
+   "scripts": {
+      "dev": "nodemon return_service.js",
+      "start": "node return_service"
+   },
+   "author": "Gregory Harder",
+   "license": "ISC",
+   "devDependencies": {
+      "node-sp-auth": "^3.0.4"
+   }
+}
